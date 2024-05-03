@@ -59,7 +59,7 @@ int main()
     time_t start, end, diff;
 
     int arrN[11] = { 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 2000000, 10000000, 50000000, 100000000};
-    size = sizeof(arrN) / sizeof(arrN[0]);
+    int size = sizeof(arrN) / sizeof(arrN[0]);
     int k = 2;
 
 
