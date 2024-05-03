@@ -59,6 +59,7 @@ int main()
     time_t start, end, diff;
 
     int arrN[11] = { 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 2000000, 10000000, 50000000, 100000000};
+    size = sizeof(arrN) / sizeof(arrN[0]);
     int k = 2;
 
 
@@ -69,7 +70,7 @@ int main()
     myfile << "| N | Ответ | Время рассчета (сек) |" << endl;
     myfile << "|-|-|-|" << endl;
 
-    for (int i = 0; i < 11; i++)
+    for (int i = 0; i < size; i++)
     {
         time(&start);
         int a = answer(arrN[i], k);
