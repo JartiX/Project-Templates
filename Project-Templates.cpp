@@ -58,8 +58,9 @@ int main()
     setlocale(LC_ALL, "Russian");
     time_t start, end, diff;
 
-    int arrN[11] = { 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 2000000, 10000000, 50000000, 100000000};
-    int size = sizeof(arrN) / sizeof(arrN[0]);
+    const int size = 11;
+    int arrN[size] = { 1000, 5000, 10000, 50000, 100000, 500000, 1000000, 2000000, 10000000, 50000000, 100000000};
+
     int k = 2;
 
 
