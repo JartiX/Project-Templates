@@ -1,5 +1,7 @@
 ﻿#include <fstream>
+#include <iostream>
 #include "Linelist/linelist.h"
+#include <time.h>
 using namespace std;
 
 /*
